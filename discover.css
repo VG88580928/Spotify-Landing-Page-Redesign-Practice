@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: space-between;
     flex-grow: 1;
+    margin-bottom: 2.5rem;
 }
 
 .discover-main-section .covers-image {
@@ -45,3 +46,34 @@
         width: auto;
     }
 }
+
+@media screen and (max-width: 560px) {
+    .main-footer .container {
+        flex-direction: column;
+        
+        flex-grow: 0;
+    }
+    body {
+        width: 100vw;
+        min-width:370px
+    }
+    #聯繫 {
+        margin-left: 18px;
+    }
+    .discover-main-section {
+        margin-bottom: 2rem;
+    }
+  }
+
+  @media screen and (max-width: 437px) {
+    .main-header {
+        flex-direction: column;
+        justify-content: normal;
+    }
+    .brand-logo {
+        margin-top: 20px;
+    }
+    .main-nav {
+        margin-top: 10px;
+    }
+  } 

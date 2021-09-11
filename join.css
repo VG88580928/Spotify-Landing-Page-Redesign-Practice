@@ -111,3 +111,33 @@
     background-color: rgb(188, 58, 128, .1);
     transform: translate(-27%, 6%);
 }
+
+@media screen and (max-width: 560px) {
+    .main-footer .container {
+        flex-direction: column;
+        flex-grow: 0;
+    }
+    body {
+        width: 100vw;
+        min-width:370px
+    }
+    #聯繫 {
+        margin-left: 18px;
+    }
+    .join-main-section .join-form {
+        width: 95vw;
+    }
+  }
+
+  @media screen and (max-width: 437px) {
+    .main-header {
+        flex-direction: column;
+        justify-content: normal;
+    }
+    .brand-logo {
+        margin-top: 20px;
+    }
+    .main-nav {
+        margin-top: 10px;
+    }
+  } 

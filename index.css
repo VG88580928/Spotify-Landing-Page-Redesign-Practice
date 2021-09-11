@@ -1,7 +1,6 @@
 .home-main-section {
     display: flex;
     align-items: stretch;
-    justify-content: space-between;
     flex-grow: 1;
 }
 
@@ -17,7 +16,7 @@
     background-image: url(images/landing-page-girl.png);
     flex-grow: 1;
     max-height: 70vh;
-    min-width: 30vw;
+    min-width: 28vw;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom left;
@@ -28,7 +27,7 @@
       flex-direction: column;
       align-items: flex-start;
       align-self: center;
-      margin: 1rem 5rem 1rem 1rem;
+      margin-right: 8rem;
   }
 
   @media (max-width: 900px) {
@@ -85,4 +84,16 @@
     transform: translate(40%, 40%);
 }
 
+  @media screen and (max-width: 437px) {
+    .main-header {
+        flex-direction: column;
+        justify-content: normal;
+    }
+    .brand-logo {
+        margin-top: 20px;
+    }
+    .main-nav {
+        margin-top: 10px;
+    }
+  } 
 /* 寬高的%數單位: 該div的百分比    vw vh:可視範圍的百分比,也就是瀏覽器大小 */
